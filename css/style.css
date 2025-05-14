@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2fff2;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #006400;
+  color: white;
+  padding: 20px;
+}
+
+.contact-info p, .contact-info a {
+  color: white;
+  font-size: 14px;
+  margin: 2px 0;
+  text-decoration: none;
+}
+
+.scroll-section{
+  overflow: hidden;
+  margin-top: 20px;
+}
+.scroll-wrapper{
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.scroll-wrapper img {
+  height: 150px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.logo img {
+  height: 60px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #228B22;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.courses h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.courses ul {
+  list-style: none;
+  padding: 0;
+}
+
+.courses ul li {
+  background-color: #fff;
+  color: #228B22;
+  margin: 5px auto;
+  padding: 10px 20px;
+  max-width: 300px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #006400;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: hsl(126, 85%, 50%);
+}
+
+.feature {
+  flex: 1 1 200px;
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: scale(1.05);
+}
+
+.feature h2 {
+     margin-bottom: 10px;
+  color: #00ffff;
+}
+
+.feature p {
+  color: white;
+}
+
+
+
+.gallery {
+  text-align: center;
+  padding: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.image-grid {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px;
+  scroll-behavior: smooth;
+  width: 900px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.image-grid img {
+  height: 500px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+ .center-box {
+      text-align: center;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .center-box img {
+      width: 200px;
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .center-box h2 {
+      margin: 0 0 10px;
+      color: #2e7d32;
+    }
+
+    .center-box p {
+      color: #555;
+    }
+
+   .box h1{
+        text-align: center;
+        color: #006400;
+   }
+   .box p{
+        text-align: center;
+        font-weight: bold;
+   }
+
+   .btn-container {
+    text-align: center;
+    margin-top: 50px;
+
+   }
+
+   .btn {
+    background-color: green;
+    color: green;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 3s ease;
+    text-decoration: none;
+  
+   }
+
+   .btn:hover{
+    background-color: green;
+  
+   }
